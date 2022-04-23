@@ -2,6 +2,8 @@ import React from 'react'
 import { StyleSheet } from 'react-native'
 import { scale } from 'react-native-size-matters'
 import Feather from 'react-native-vector-icons/Feather'
+Feather.loadFont();
+
 
 import Colors from 'utils/Colors'
 

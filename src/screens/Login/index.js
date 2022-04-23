@@ -12,8 +12,8 @@ import { placeholders, LOGINFORM_BUTTON, SIGNUP_LINK, SIGNUP_TEXT } from './cons
 
 const Login = (props) => {
 
-    const loading = useSelector( state => state.Login.loading )
-    const error = useSelector( state => state.Login.error )
+    const loading = useSelector( state => state.Auth.loading )
+    const error = useSelector( state => state.Auth.error )
 
     const passRef = useRef()
     const dispatch = useDispatch()

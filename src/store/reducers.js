@@ -54,5 +54,5 @@ const AuthReducer = (state=initialState,action) => {
 
 export const combinedReducers = combineReducers({
     form : formReducer,
-    Auth : AuthReducers
+    Auth : AuthReducer
 }) 
